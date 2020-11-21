@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/navigation_blog"
+    android:icon="@drawable/ic_launcher_foreground"
+    android:title="Blogs"/>
+    <item
+    android:id="@+id/navigation_chapter"
+    android:icon="@drawable/ic_launcher_foreground"
+    android:title="Chapters"/>
+    <item
+    android:id="@+id/navigation_store"
+    android:icon="@drawable/ic_launcher_foreground"
+    android:title="Store"/>
+    <item
+    android:id="@+id/navigation_copuns"
+    android:icon="@drawable/ic_launcher_foreground"
+    android:title="Copuns"/>
+    <!--<item
+    android:id="@+id/navigation_imageslider"
+    android:icon="@drawable/ic_launcher_foreground"
+    android:title="Image slider"/>-->
+    <item
+    android:id="@+id/navigation_dynamic"
+    android:icon="@drawable/ic_launcher_foreground"
+    android:title="Dynamic Tab"/>
+
+</menu>
