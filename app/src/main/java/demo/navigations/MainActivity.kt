@@ -79,7 +79,8 @@ class MainActivity : BaseActivity<MainViewModel>() {
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_store -> {
-                val fragment = StoreFragment()
+ //               val fragment = StoreFragment()
+                  val fragment = BottomSheetFragment()
                 supportFragmentManager.beginTransaction().replace(R.id.container, fragment, fragment.javaClass.getSimpleName())
                     .commit()
                 return@OnNavigationItemSelectedListener true
